@@ -168,7 +168,7 @@ function primeraPreguntaEntretenimiento(atribute) {
 //VUELVE A ELEGIR OTRA CATEGORIA:
 
 function nuevaCategoria() {
-    let pregunta = prompt(nombre + `, selecciona una nueva categoria \n Escribe una categoria: \n 1-•••> Historia \n 2-•••> Ciencia \n 3-•••> Arte \n 4-•••> Geografia \n 5-•••> Entretenimiento`);
+    let pregunta = prompt(nombre + `, selecciona una nueva categoria \n Escribe una categoria: \n 1-•••> Historia \n 2-•••> Ciencia \n 3-•••> Arte \n 4-•••> Geografia \n 5-•••> Entretenimiento \n\n 0•••> Escribe "no" para salir.`);
     let respuesta = pregunta;
     if (respuesta == `1` || respuesta == `Historia` || respuesta == `historia` || respuesta == `HISTORIA`) {
         let pregunta = prompt(`**************************Categoria Historia************************** \n Pregunta: ¿Qué función tenían las pirámides de Egipto? \n\n Opcion 1)•••>  Eran monumentos funerarios \n\n Opcion 2)•••> Eran monumentos en honor a los dioses \n\n Opcion 3)•••> Eran monumentos para honrar en vida a sus faraones`);
